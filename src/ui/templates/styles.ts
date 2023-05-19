@@ -6,7 +6,9 @@ export const MainTemplateContainer = styled.div`
   max-width: 1000px;
   min-height: 100vh;
 
-  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  background-color: violet;
 `;
 
 export const OutletContainer = styled.div`
@@ -15,6 +17,8 @@ export const OutletContainer = styled.div`
   height: 100%;
   max-width: 800px;
   min-width: 320px;
+
+  align-items: center;
 
   background-color: black;
 `;

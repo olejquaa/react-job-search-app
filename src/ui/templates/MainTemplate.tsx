@@ -1,12 +1,11 @@
-import { MainTemplateContainer, OutletContainer } from "./styles";
-import { CustomHeader, Filter } from "components";
+import { CustomHeader } from "components";
 import { Outlet } from "react-router";
+import { MainTemplateContainer, OutletContainer } from "./styles";
 
 export const MainTemplate = () => {
   return (
     <MainTemplateContainer>
       <CustomHeader />
-      <Filter />
       <OutletContainer>
         <Outlet />
       </OutletContainer>

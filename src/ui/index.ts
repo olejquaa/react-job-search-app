@@ -1,5 +1,4 @@
 import { GlobalStyle } from "./globalStyles";
-import { MainTemplate } from "./templates/MainTemplate/MainTemplate";
-import { PageTemplate } from "./templates/PageTemplate/PageTemplate";
+import { MainTemplate } from "./templates/MainTemplate";
 
-export { MainTemplate, GlobalStyle, PageTemplate };
+export { MainTemplate, GlobalStyle };

@@ -14,14 +14,12 @@ export const MenuList = styled.ul`
   display: flex;
   flex-direction: row;
   justify-self: center;
-  background-color: green;
   gap: 60px;
   padding: 10px;
 `;
 
 export const StyledLink = styled.li`
   width: 100%;
-  background-color: coral;
   color: ${Color.BLACK};
 
   :hover {

@@ -12,6 +12,4 @@ export const StyledHeader = styled.div`
   grid-area: header;
   max-width: 1116px;
   width: 100%;
-
-  background-color: gold;
 `;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Color } from "ui/colors";
 
 export const MainTemplateContainer = styled.div`
   display: grid;
@@ -12,8 +13,7 @@ export const MainTemplateContainer = styled.div`
   width: 100vw;
   height: 100vh;
   min-width: 320px;
-
-  background-color: violet;
+  background-color: ${Color.GRAY};
 `;
 
 export const HeaderContainer = styled.div`
@@ -25,7 +25,7 @@ export const HeaderContainer = styled.div`
   min-width: 320px;
   width: 100%;
 
-  background-color: pink;
+  background-color: ${Color.WHITE};
 `;
 
 export const OutletContainer = styled.div`
@@ -36,6 +36,4 @@ export const OutletContainer = styled.div`
   min-width: 320px;
   max-width: 1116px;
   width: 100%;
-
-  background-color: greenyellow;
 `;

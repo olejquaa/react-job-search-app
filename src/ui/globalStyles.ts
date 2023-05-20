@@ -4,7 +4,8 @@ export const GlobalStyle = createGlobalStyle`
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  
+
+  font-family: Inter;
 }
 
 ol, ul {
@@ -24,6 +25,9 @@ input::-webkit-inner-spin-button {
 
 button {
   cursor: pointer;
+  background: none;
+  border: 0px;
+  font-family: Inter;
 }
 
 

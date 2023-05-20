@@ -1,11 +1,17 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+
+  grid-template-areas: "logo  menu";
+  grid-template-columns: 141px 1fr 141px;
+  gap: 10px;
+
+  align-self: center;
+  justify-self: center;
   grid-area: header;
-  column-gap: 40px;
+  max-width: 1116px;
+  width: 100%;
+
   background-color: gold;
 `;

@@ -1,10 +1,18 @@
-import React from "react";
+import { ROUTE } from "router";
+import { MenuList, StyledLink, StyledNavMenu } from "./styles";
+import { CustomNavLink } from "components";
 
 export const NavMenu = () => {
   return (
-    <div>
-      <div>ПОиск вакансий</div>
-      <div> Избранное </div>
-    </div>
+    <StyledNavMenu>
+      <MenuList>
+        <CustomNavLink to={ROUTE.HOME}>
+          <StyledLink>Поиск вакансий</StyledLink>
+        </CustomNavLink>
+        <CustomNavLink to={ROUTE.FAVORITES}>
+          <StyledLink>Избранное</StyledLink>
+        </CustomNavLink>
+      </MenuList>
+    </StyledNavMenu>
   );
 };

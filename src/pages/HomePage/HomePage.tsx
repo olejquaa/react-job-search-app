@@ -1,4 +1,4 @@
-import { Filter } from "components";
+import { Filter, Search, VacancyList } from "components";
 import { HomePageContainer, HomePageContent } from "./styles";
 
 export const HomePage = () => {
@@ -6,8 +6,8 @@ export const HomePage = () => {
     <HomePageContainer>
       <Filter />
       <HomePageContent>
-        <div>Search</div>
-        <div>Card</div>
+        <Search />
+        <VacancyList />
         <div>Pagination</div>
       </HomePageContent>
     </HomePageContainer>

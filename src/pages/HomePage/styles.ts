@@ -7,8 +7,6 @@ export const HomePageContainer = styled.div`
   gap: 28px;
 
   width: 100%;
-
-  background-color: mediumaquamarine;
 `;
 
 export const HomePageContent = styled.div`
@@ -21,6 +19,4 @@ export const HomePageContent = styled.div`
   grid-row-gap: 28px;
 
   grid-area: content;
-
-  background-color: navajowhite;
 `;

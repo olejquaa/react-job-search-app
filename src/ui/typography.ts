@@ -59,4 +59,28 @@ export const typography = {
     font-size: 16px;
     line-height: 20px;
   `,
+
+  salary: css`
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  `,
+
+  vacancyGraphic: css`
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  `,
+
+  vacancyLabel: css`
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  `,
 };

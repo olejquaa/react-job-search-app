@@ -11,7 +11,7 @@ export const FilterContainer = styled.div`
     justify-self: center;
   }
 `;
-export const StyledFilter = styled.div`
+export const StyledFilter = styled.form`
   height: auto;
   padding: 10px;
   border: 1px solid ${Color.GRAY};

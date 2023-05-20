@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Color } from "ui";
+import { Color, typography } from "ui";
 
 export const StyledNavMenu = styled.nav`
   display: grid;
@@ -19,11 +19,13 @@ export const MenuList = styled.ul`
 `;
 
 export const StyledLink = styled.li`
-  width: 100%;
+  box-sizing: border-box;
+
+  ${typography.menuLink}
+
   color: ${Color.BLACK};
 
   :hover {
-    text-shadow: 1px solid ${Color.BLUE};
     color: ${Color.BLUE};
   }
 `;

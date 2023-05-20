@@ -1,13 +1,11 @@
 import styled from "styled-components";
-import { Color } from "ui";
+import { Color, typography } from "ui";
 
 export const FilterContainer = styled.div`
   grid-area: filter;
   justify-self: start;
 
   width: 100%;
-
-  background-color: aqua;
 
   @media all and (max-width: 768px) {
     justify-self: center;
@@ -16,7 +14,7 @@ export const FilterContainer = styled.div`
 export const StyledFilter = styled.div`
   height: auto;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid ${Color.GRAY};
   border-radius: 12px;
 
   background-color: ${Color.WHITE};
@@ -38,7 +36,9 @@ export const FilterHeader = styled.div`
   padding-bottom: 32px;
 `;
 
-export const Label = styled.h1``;
+export const Label = styled.h1`
+  ${typography.h1}
+`;
 
 export const FilterResetButton = styled.button``;
 
@@ -49,7 +49,9 @@ export const FilterSection = styled.div`
   padding-bottom: 20px;
 `;
 
-export const FilterSectionName = styled.h2``;
+export const FilterSectionName = styled.h2`
+  ${typography.h2}
+`;
 
 export const FilterDropDown = styled.div``;
 
@@ -65,5 +67,6 @@ export const FilterButton = styled.button`
   height: 40px;
 
   background: ${Color.BLUE};
+  color: ${Color.WHITE};
   border-radius: 8px;
 `;

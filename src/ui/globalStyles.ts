@@ -33,6 +33,7 @@ a {
 
 #root {
   display: flex;
+  min-height: 100vh;
   justify-content: center;
   align-self: center;
 }
